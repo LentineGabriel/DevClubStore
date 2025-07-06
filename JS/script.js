@@ -42,7 +42,7 @@ function update(direction) {
 clearInterval(timer);
 timer = setInterval(() => {
   update(1); // ir sempre 'next' (always 'next')
-}, 5000);
+}, 6000);
 
 // carrossel de itens (items carousel)
 prevButton.addEventListener("click", () => {

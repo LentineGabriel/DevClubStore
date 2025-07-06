@@ -150,9 +150,14 @@ header nav ul li:hover::after {
   align-items: center;
   opacity: 0;
   margin-top: 30px;
+
+  /* animação (animation) */
+  transform: translateX(100vw);
+  transition: transform 0.7s ease-in-out, opacity 0.7s ease-in-out;
 }
 .active {
   opacity: 1;
+  transform: translateX(0);
 }
 .product-img {
   width: 45%;
@@ -169,6 +174,16 @@ header nav ul li:hover::after {
   filter: drop-shadow(
     0 0 30px rgba(0, 247, 255, 0.3)
   ); /* efeito esfumaçado (smoky effect) */
+
+  /* animação (animation) */
+  transform: translateX(500px);
+  opacity: 0;
+  transition: transform 0.6s ease, opacity 0.6s ease;
+  transition-delay: 0.5s;
+}
+.active .product-img img {
+  transform: translateX(0);
+  opacity: 1;
 }
 .content {
   width: 55%;
@@ -186,6 +201,16 @@ header nav ul li:hover::after {
   font-weight: 600;
   letter-spacing: 2px;
   margin-bottom: 10px;
+
+  /* animação (animation) */
+  transform: translateX(100px);
+  opacity: 0;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  transition-delay: 0.5s;
+}
+.active .product-tag {
+  transform: translateX(0);
+  opacity: 1;
 }
 .product-name {
   font-family: "Orbitron", sans-serif;
@@ -193,6 +218,16 @@ header nav ul li:hover::after {
   text-transform: capitalize;
   line-height: 1.1;
   margin-bottom: 20px;
+
+  /* animação (animation) */
+  transform: translateX(200px);
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  transition-delay: 0.5s;
+}
+.active .product-name {
+  transform: translateX(0);
+  opacity: 1;
 }
 .product-description {
   font-size: 1.1rem;
@@ -200,6 +235,16 @@ header nav ul li:hover::after {
   line-height: 1.6;
   margin-bottom: 30px;
   max-width: 600px;
+
+  /* animação (animation) */
+  transform: translateX(300px);
+  opacity: 0;
+  transition: transform 0.6s ease, opacity 0.6s ease;
+  transition-delay: 0.5s;
+}
+.active .product-description {
+  transform: translateX(0);
+  opacity: 1;
 }
 .btn {
   padding: 12px 16px;
@@ -211,6 +256,16 @@ header nav ul li:hover::after {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.5s ease;
+
+  /* animação (animation) */
+  transform: translateX(400px);
+  opacity: 0;
+  transition: transform 0.9s ease, opacity 0.9s ease;
+  transition-delay: 0.5s;
+}
+.active .btn {
+  transform: translateX(0);
+  opacity: 1;
 }
 .btn:hover {
   color: #fff;
