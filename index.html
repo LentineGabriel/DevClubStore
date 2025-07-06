@@ -8,6 +8,123 @@
     <title>DevClub Store</title>
   </head>
   <body>
+    <header>
+      <div class="logo">DevClub Store</div>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Produtos</li>
+          <li>Contatos</li>
+        </ul>
+      </nav>
+    </header>
 
+    <main class="container">
+      <div class="tech-circle">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+
+      <div class="list">
+        <!-- img -->
+        <div class="item active">
+          <div class="product-img">
+            <img src="Assets/img/air-pods.png" alt="Air Pods" />
+          </div>
+          <!-- texts -->
+          <div class="content">
+            <p class="product-tag">som premium</p>
+            <p class="product-name">air pods max</p>
+            <p class="product-description">
+              Experimente o som em sua forma mais pura. Cancelamento de ruído
+              adaptativo, qualidade de áudio excepcional e desgin ergonômico
+              para o máximo conforto. Sua música nunca soou tão bem.
+            </p>
+
+            <button class="btn">Saiba Mais!</button>
+          </div>
+        </div>
+
+        <!-- img -->
+        <div class="item">
+          <div class="product-img">
+            <img src="Assets/img/apple-watch.png" alt="Apple Watch" />
+          </div>
+          <!-- texts -->
+          <div class="content">
+            <p class="product-tag">novo lançamento</p>
+            <p class="product-name">apple watch series 10</p>
+            <p class="product-description">
+              O smartwatch mais avançado do mercado. Monitoramento completo de
+              saúde, GPS integrado, tela AMOLED de alta resolução e bateria de
+              longa duração. Perfeito para acompanhar seu estilo de vida ativo.
+            </p>
+
+            <button class="btn">Saiba Mais!</button>
+          </div>
+        </div>
+
+        <!-- img -->
+        <div class="item">
+          <div class="product-img">
+            <img src="Assets/img/vision-pro.png" alt="Vision PRO" />
+          </div>
+          <!-- texts -->
+          <p class="product-tag">alta performance</p>
+          <p class="product-name">vision pro</p>
+          <p class="product-description">
+            Realidade aumentada imersiva com o Apple Vision Pro: inovação ao
+            alcance dos olhos.
+          </p>
+
+          <button class="btn">Saiba Mais!</button>
+        </div>
+      </div>
+
+      <div class="arrows">
+        <!-- left arrow -->
+        <button class="arrow-btn" id="prev">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-arrow-left-circle-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"
+            />
+          </svg>
+        </button>
+
+        <!-- right arrow -->
+        <button class="arrow-btn" id="next">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-arrow-right-circle-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <div class="indicators">
+        <div class="numbers">01</div>
+        <div class="dots">
+          <div class="dot active"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
