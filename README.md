@@ -24,9 +24,12 @@ Apesar disso, não me guiei somente pela aula. Busquei ir mais além no que diz 
 📰​ HTML Semântico<br>
 📂 Arquivos (CSS/JS) / Imagens (Assets) organizados em pastas e subpastas;<br>
 🧑‍💻 Código organizado e encapsulado de acordo com métricas do mercado;<br>
+💫​ Site com animações;<br>
 ​💻​ Responsividade para monitores +1280x720;<br>
 ♾️ URL do projeto disponível via GitHub Pages (e descrição do projeto).
 
 <hr>
 
 ### 📷​ Fotos do Site
+<img width="1319" height="583" alt="Image" src="https://github.com/user-attachments/assets/901cceec-b652-4fab-b70d-70c594446c2a" />
+<img width="1313" height="587" alt="Image" src="https://github.com/user-attachments/assets/37dff6bb-27b0-4d5d-94a4-483876688245" />
