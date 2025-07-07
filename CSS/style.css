@@ -38,11 +38,21 @@ header {
   z-index: 3;
 }
 .logo {
+  cursor: pointer;
   font-family: "Orbriton", sans-serif;
   font-size: 2rem;
   font-weight: 900;
   color: #00f7ff;
   text-shadow: 0 0 10px rgba(0, 247, 255, 0.5);
+  transition: all 0.3s ease;
+}
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+.logo:hover {
+  font-size: 2.1rem;
+  text-shadow: 0 0 10px rgb(112, 250, 255);
 }
 header nav ul {
   display: flex;
@@ -52,6 +62,7 @@ header nav ul li {
   cursor: pointer;
   position: relative;
   padding: 5px 0;
+  transition: 0.3s all ease;
 }
 header nav ul li::after {
   content: "";
@@ -65,6 +76,9 @@ header nav ul li::after {
 }
 header nav ul li:hover::after {
   width: 100%;
+}
+header nav ul li:hover {
+  font-size: 1.1rem;
 }
 
 /* Conteúdo Principal (main) */
@@ -214,7 +228,8 @@ header nav ul li:hover::after {
 }
 .product-name {
   font-family: "Orbitron", sans-serif;
-  font-size: 4.5rem;
+  font-size: 4rem;
+  font-weight: 600;
   text-transform: capitalize;
   line-height: 1.1;
   margin-bottom: 20px;
@@ -237,7 +252,7 @@ header nav ul li:hover::after {
   max-width: 600px;
 
   /* animação (animation) */
-  transform: translateX(300px);
+  transform: translateX(400px);
   opacity: 0;
   transition: transform 0.6s ease, opacity 0.6s ease;
   transition-delay: 0.5s;
@@ -251,26 +266,21 @@ header nav ul li:hover::after {
   background: linear-gradient(90deg, #00f7ff, #0066ff);
   border: none;
   border-radius: 30px;
-  color: #000;
+  color: #fff;
   font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.5s ease;
+  font-weight: 800;
+  text-transform: uppercase;
+  transition: transform 0.9s ease 0.5s, opacity 0.9s ease 0.5s, color 0.5s,
+    padding 0.5s, filter 0.5s;
 
   /* animação (animation) */
   transform: translateX(400px);
-  opacity: 0;
-  transition: transform 0.9s ease, opacity 0.9s ease;
   transition-delay: 0.5s;
+  opacity: 0;
 }
 .active .btn {
   transform: translateX(0);
   opacity: 1;
-}
-.btn:hover {
-  color: #fff;
-  padding: 15px 20px;
-  filter: drop-shadow(0 0 15px rgba(76, 209, 224, 0.87));
 }
 .arrows {
   position: absolute;

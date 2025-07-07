@@ -38,7 +38,7 @@ function update(direction) {
   numberIndicator.textContent = String(active + 1).padStart(2, "0");
 }
 
-// temporizador (timer)
+// temporizador p/ mudar automaticamente (auto switching timer)
 clearInterval(timer);
 timer = setInterval(() => {
   update(1); // ir sempre 'next' (always 'next')
